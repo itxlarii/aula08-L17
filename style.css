@@ -13,9 +13,28 @@
     --texto: white;    
 }
 
-/* Plano de fundo barra de navegação: #1E1F22
-Títulos e plano de fundo botões: #FFAE00
-Plano de fundo cards: RGBA(37, 37, 37, 0.8)
-Textos: #ffffff */
+header{
+    background-color: var(--corBarraNavegacao);
+    text-align: center;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-/* add, commit e push (git flow) */
+nav ul{
+    display: flex;  
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--texto);
+    font-weight: bolder;
+    
+}
